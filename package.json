@@ -1,0 +1,19 @@
+{
+    "name": "test-task-bic",
+    "version": "0.1.0",
+    "scripts": {
+        "start:pg": "node index.mjs --debug --pg",
+        "start:dev": "node index.mjs --debug",
+        "start:all": "node index.mjs --pg"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.10",
+        "iconv-lite": "^0.6.3",
+        "node-fetch": "^3.3.0",
+        "pg": "^8.8.0",
+        "xml-js": "^1.6.11"
+    }
+}
